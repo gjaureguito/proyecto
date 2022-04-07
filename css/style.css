@@ -1,0 +1,330 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  background-color: #ffffff;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item4 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item5 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+/* IMAGEN CABECERA*/
+
+.bg-img {
+  /* The image used */
+  background-image: url("/images/matese-fields-pvHma684eEI-unsplash.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+header {
+  width: 100%;
+  height: 400px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #0f0f0f;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(238, 236, 236);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+.logo {
+  height: 30%;
+  padding-left: 250px;
+  padding-top: 50px;
+}
+
+.box1 {
+  justify-content: space-evenly;
+  background-color: #2196f3;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.box1 > div {
+  flex-direction: row;
+}
+
+.box2 {
+  text-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  padding-left: 50px;
+}
+
+.seccion_art {
+  padding-top: 200px;
+  padding: 200px;
+  background-color: #ece49d0c;
+}
+
+.seccion_art > h1 {
+  padding-top: 40px;
+}
+
+.seccion_art > div {
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+.seccion_art > div > img {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: auto;
+  float: left;
+}
+
+.seccion_art > div > p {
+  padding-top: 20px;
+  line-height: 1.5;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+.one {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.two {
+  padding-top: 60px;
+  flex: 1;
+  text-align: center;
+}
+
+.three {
+  padding-top: 60px;
+  flex: 1;
+  text-align: center;
+}
+
+/* From cssbuttons.io by @Mike11jr */
+.btn {
+  width: 100%;
+  height: 30px;
+  font-size: 1.1em;
+  cursor: pointer;
+  background-color: #171717;
+  color: rgb(248, 242, 242);
+  border: none;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  border-radius: 5px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #f85959, 0 15px 0 -4px #39a2db,
+    0 16px 10px -3px #39a2db;
+}
+
+.btn:active {
+  transition: all 0.2s;
+  transform: translateY(-5px);
+  box-shadow: 0 2px 0 -2px #f85959, 0 8px 0 -4px #39a2db,
+    0 12px 10px -3px #39a2db;
+}
+
+.boton {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.hero__title {
+  font-size: 60px;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.hero__img {
+  width: 300px;
+  flex: 1;
+  float: none;
+  padding-top: 100px;
+}
+
+p {
+  text-align: justify;
+}
+
+footer {
+  margin-top: 150px;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  background: no-repeat;
+}
+
+.img__footer {
+  width: 30px;
+  height: 30px;
+}
+
+.div__otro {
+  color: #0f0f0f;
+  text-align: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.form_contacto {
+  justify-content: center;
+  padding-top: 300px;
+  padding-left: 300px;
+  line-height: 30px;
+}
+fieldset {
+  border: 0;
+  padding-right: 50px;
+  font-family: Arial;
+}
+
+input {
+  width: 400px;
+  margin: 0;
+
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(238, 236, 236);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .box1 {
+    background-color: #2196f3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
