@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.bg-4 {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+.footer {
+  padding-top: 20px;
+  height: 300px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  color: #ffffff;
+}
+
+h3 {
+  padding-top: 25px;
+}
+
+.espacio {
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1030px) {
+  body {
+    background-color: #f6f6f2;
+    color: black;
+    text-align: justify;
+    font-size:large;
+    width: auto;
+  }
+
+  p,h1,h4 { 
+    font-size: large;
+  }
+
+}
+  
+/* On screens that are 600px wide or less,
+  the background color is yellow */
+@media screen and (max-width: 600px) {
+  body {
+   background-color: rgb(18, 19, 19);
+   color: rgb(83, 142, 229);
+   text-align: justify;
+   font-size: small;
+  }
+
+ p, h1, h4 { 
+    font-size: small;
+    text-align: center;
+  }
+
+  
+  
+  [class*="col-"] {
+    width: 95%;
+    text-align: center;
+    }
+
+
+  
+      [class*="btn"] {
+        font-size: small;
+        }
+}
+
+/* unvisited link */
+a:link {
+  color: #201f1f;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #d5c40c;
+}
+
+/* selected link */
+a:active {
+  color: #ededf2;
+}
+
+a.highlight:hover {
+  color: #ff0000;
+  font-size: 22px;
+} 
+
