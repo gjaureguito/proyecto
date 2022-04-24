@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-main {
-  margin-top: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
-h1,
-h2,
-p {
-}
 
 .bg-4 {
   background-color: #2f2f2f;
@@ -37,4 +27,67 @@ h3 {
 
 .espacio {
   padding-bottom: 30px;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  ,h1,h2,h3,header, body { 
+    font-size: 20px;
+    text-align: justify;
+  }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+ 
+    ,h1,h2,h3,header, body { 
+      font-size: 15px;
+      text-align: justify;
+      
+    }
+
+      .card-body>h1 { 
+         text-align: justify;
+         justify-content: center;
+
+      }
+
+       .column {
+        width: 50%;
+      }
+
+
+    }
+
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+    
+@media (min-width: 768px) {
+  .col-sm-5ths {
+    width: 20%;
+    float: left;
+    }
+  }
+@media (min-width: 992px) {
+  .col-md-5ths {
+    width: 20%;
+    float: left;
+    }
+  }
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+    width: 20%;
+    float: left;
+    }
 }
